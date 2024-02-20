@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/mainshape"
+    android:layout_height="match_parent"
+    tools:context=".secondQuestion">
+
+    <TextView
+        android:text="Where is Panama?"
+        android:layout_marginTop="50dp"
+        style="@style/style" />
+    <TextView
+        android:id="@+id/f"
+        android:text="Asia"
+        android:background="@drawable/click_influence"
+        android:layout_marginTop="200dp"
+        style="@style/style" />
+
+    <TextView
+        android:id="@+id/s"
+        android:text="Africa"
+        android:background="@drawable/click_influence"
+        android:layout_marginTop="275dp"
+        style="@style/style" />
+
+    <TextView
+        android:text="America"
+        android:id="@+id/t"
+        android:background="@drawable/click_influence"
+        android:layout_marginTop="350dp"
+        style="@style/style" />
+
+</FrameLayout>
